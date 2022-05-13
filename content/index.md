@@ -2,7 +2,7 @@
 
 This API is used for the playground on https://content.nuxtjs.org.
 
-Using [unjs/ohmyfetch](https://github.com/unjs/ohmyfetch):
+Using the [fetch() API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch):
 
 ```ts
 const document = await fetch('https://mdc.nuxt.dev/api/parse', {
