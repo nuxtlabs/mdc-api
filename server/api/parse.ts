@@ -2,6 +2,16 @@ import { defineEventHandler, useBody, appendHeader } from 'h3'
 import { parseContent } from '#content/server'
 
 export default defineEventHandler(async (event) => {
+  appendHeader(event, 'Access-Control-Allow-Origin', '*');
+  appendHeader(event, 'Access-Control-Allow-Credentials', 'true');
+  appendHeader(
+    event,
+    'Access-Control-Allow-Methods',
+    'GET,PUT,POST,DELETE,OPTIONS'
+  );
+  if (event.req.method !== 'POST') {
+    return {}
+  }
   const body = await useBody(event)
 
   // @ts-ignore
