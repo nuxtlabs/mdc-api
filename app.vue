@@ -1,5 +1,5 @@
 <template>
-  <Content path="/" class="readme" />
+  <ContentDoc path="/" class="readme" />
 </template>
 
 <style scoped>
