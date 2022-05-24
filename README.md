@@ -1,6 +1,8 @@
-# Nuxt 3 Minimal Starter
+# MDC API
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+https://mdc.nuxt.dev
+
+Learn more about the [MDC Syntax](https://content.nuxtjs.org/guide/writing/mdc).
 
 ## Setup
 
