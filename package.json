@@ -8,5 +8,8 @@
   "devDependencies": {
     "@nuxt/content": "^2.7.0",
     "nuxt": "^3.6.1"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
